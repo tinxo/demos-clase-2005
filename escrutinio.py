@@ -27,6 +27,6 @@ for elemento in dicc:
 # Impresión de resultados
 for elemento in dicc:
     porcentaje = (dicc[elemento]*100)/suma
-    print(elemento + ' - ' + str(dicc[elemento]) + ' votos - ' + str(porcentaje) + '%')
+    print(elemento + ' - ' + str(dicc[elemento]) + ' votos - ' + str(round(porcentaje,2)) + '%')
 
 print('Ganador del mundial de marcas de autos: ' + ganador + ' con ' + str(mayor) + ' votos.')
